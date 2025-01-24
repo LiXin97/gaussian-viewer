@@ -17,6 +17,10 @@ A lightweight WebGL-based viewer for 3D Gaussian Splatting models. This viewer a
 ```bash
 pip install -e .
 ```
+or 
+```bash
+pip install gaussian-viewer
+```
 
 ## Usage
 
@@ -43,7 +47,6 @@ viewer.show(splat_data)
 # Open in browser (optional)
 viewer.open_in_browser()
 ```
-
 ## Controls
 
 - **Mouse/Trackpad**:
@@ -79,3 +82,4 @@ viewer.open_in_browser()
 ## License
 
 MIT License
+
